@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+.block {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+big img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.small {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+}
+
+.small img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+.small img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
